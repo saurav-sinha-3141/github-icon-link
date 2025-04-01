@@ -1,0 +1,26 @@
+{
+  "name": "github-icon-link",
+  "version": "1.0.0",
+  "description": "A floating GitHub icon for any webpage",
+  "main": "dist/github-icon-link.js",
+  "types": "dist/github-icon-link.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saurav-sinha-3141/github-icon-link"
+  },
+  "keywords": [
+    "github",
+    "floating-icon",
+    "web",
+    "UI"
+  ],
+  "author": "Saurav Sinha",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
