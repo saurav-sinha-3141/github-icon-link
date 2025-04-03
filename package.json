@@ -1,9 +1,10 @@
 {
   "name": "github-icon-link",
-  "version": "1.0.0",
-  "description": "A floating GitHub icon for any webpage",
-  "main": "dist/github-icon-link.js",
-  "types": "dist/github-icon-link.d.ts",
+  "version": "1.1.0",
+  "description": "A customizable floating GitHub icon for React",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
@@ -13,14 +14,18 @@
   },
   "keywords": [
     "github",
+    "icon",
     "floating-icon",
-    "web",
-    "UI"
+    "react",
+    "ui"
   ],
   "author": "Saurav Sinha",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
   }
 }
