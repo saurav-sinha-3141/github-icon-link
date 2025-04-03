@@ -1,6 +1,6 @@
 {
   "name": "github-icon-link",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A customizable floating GitHub icon for React",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,9 +23,10 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@types/react": "^19.1.0",
     "typescript": "^5.8.2"
   },
   "peerDependencies": {
-    "react": "^18.0.0"
+    "react": "^19.1.0"
   }
 }
